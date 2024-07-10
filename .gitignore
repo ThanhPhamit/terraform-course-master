@@ -1,0 +1,31 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+#Lab
+/docker-basic-operation/lab4-multi-stage-docker-file/node_modules
+/docker-basic-operation/lab4-multi-stage-docker-file/build
+db
+
+# Keys
+keypair/
+.terraform*
